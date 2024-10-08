@@ -2,30 +2,29 @@
 
 ## Environment Setup with Anaconda
 
-## 1. Create a new environment:
-   ```bash
-   conda create --name main-ds python=3.11.9
-## 2. Activate the environment
-    conda activate main-ds
-## 3. install the required packages
-   pip install -r requirements.txt
+## 1. Create a new environment
+```bash
+conda create --name main-ds python=3.11.9
+#activate the environment
+conda activate main-ds
+#install the required packages
+pip install -r requirements.txt
+```
 
-## Environment Setup with Shell/Terminal
-
-## 1. Create a new directory for the project
+## 2. Environment Setup with Shell/Terminal
+```bash
+# create a new directory for the project
 mkdir dashboard
 cd dashboard
-
-## 2. initialize pipenc and create virtual environment
+# activate pipenv and create a virtual environtment
 pipenv install
-
-## 3. activate pipenv shell
+# activate the pipenv shel
 pipenv shell
-
-## 4. install the required packages 
+# install the required packages
 pip install -r requirements.txt
+```
 
-## Running the Streamlit App
+## 3. Running the Streamlit App 
 streamlit run dashboard.py
 
 
